@@ -30,11 +30,11 @@ public class OrderTest {
     void test1() {
 
         User user = new User();
-        user.setName("Robbie");
+        user.setName("Rob");
 
         Food food = new Food();
-        food.setName("후라이드 치킨");
-        food.setPrice(15000);
+        food.setName("양념 치킨");
+        food.setPrice(20000);
 
         // 주문 저장
         Order order = new Order();
