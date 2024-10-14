@@ -18,7 +18,7 @@ public class Food {
     private String name;
     private double price;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.PERSIST)
     @JoinColumn(name = "user_id")
     private User user;
 }

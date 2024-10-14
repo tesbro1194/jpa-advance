@@ -60,7 +60,8 @@ public class CascadeTest {
         food2.setPrice(20000);
         user.addFoodList(food2);
 
-        userRepository.save(user);
+        foodRepository.save(food);
+        foodRepository.save(food2);
     }
 
     @Test
